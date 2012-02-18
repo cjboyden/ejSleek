@@ -19,6 +19,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
@@ -41,6 +42,13 @@
                 <version>2.4</version>
                 <configuration>
                     <artifactItems>
+                        <artifactItem>
+                            <groupId>net.java.jinput</groupId>
+                            <artifactId>jinput-platform</artifactId>
+                            <version>2.0.5</version>
+                            <classifier>natives-${platform}</classifier>
+                            <includes>*.so,*.dll,*.*lib</includes>
+                        </artifactItem>
                         <artifactItem>
                             <groupId>org.lwjgl.lwjgl</groupId>
                             <artifactId>lwjgl-platform</artifactId>
