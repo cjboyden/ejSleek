@@ -58,4 +58,16 @@
             <version>0.0.15</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>b2s-repo</id>
+            <url>http://b2s-repo.googlecode.com/svn/trunk/mvn-repo</url>
+        </repository>
+
+        <repository>
+            <id>freehep</id>
+            <url>http://java.freehep.org/maven2</url>
+        </repository>
+    </repositories>
 </project>
