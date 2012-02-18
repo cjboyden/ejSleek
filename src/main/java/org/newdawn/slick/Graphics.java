@@ -139,8 +139,8 @@ public class Graphics {
 				public Object run() {
 					try {
 						DEFAULT_FONT = new AngelCodeFont(
-								"org/newdawn/slick/data/defaultfont.fnt",
-								"org/newdawn/slick/data/defaultfont.png");
+                                "org/newdawn/slick/data/defaultfont.fnt",
+                                "org/newdawn/slick/data/defaultfont.png");
 					} catch (SlickException e) {
 						Log.error(e);
 					}
